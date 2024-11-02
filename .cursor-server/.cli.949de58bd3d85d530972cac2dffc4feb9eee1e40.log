@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:38443
+looking for token 3cdc56ca-1698-4942-a88b-08b2a5242239, got Some("3cdc56ca-1698-4942-a88b-08b2a5242239")
+[2024-11-02 09:00:35] info Disposed of connection to running server.
+[2024-11-02 09:00:35] info Checking /home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/log.txt and /home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/pid.txt for a running server...
+[2024-11-02 09:00:35] info Found running server (pid=9261)

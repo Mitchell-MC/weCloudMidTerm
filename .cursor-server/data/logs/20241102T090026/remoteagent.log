@@ -1,0 +1,86 @@
+2024-11-02 09:00:26.200 [info] 
+
+
+
+
+2024-11-02 09:00:26.211 [info] Extension host agent started.
+2024-11-02 09:00:26.329 [info] [<unknown>][4722d76d][ManagementConnection] New connection established.
+2024-11-02 09:00:26.330 [info] [<unknown>][ec0c56d4][ExtensionHostConnection] New connection established.
+2024-11-02 09:00:26.401 [info] [<unknown>][ec0c56d4][ExtensionHostConnection] <9295> Launched Extension Host Process.
+2024-11-02 09:00:28.467 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31247)
+    at L.updateTitle (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26446)
+    at S.A.<computed> (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21705)
+    at Object.call (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5380)
+    at c.s (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at c.q (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at g.value (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-02 09:00:33.248 [info] [<unknown>][4722d76d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-02 09:00:33.279 [info] [<unknown>][ec0c56d4][ExtensionHostConnection] <9295> Extension Host Process exited with code: 0, signal: null.
+2024-11-02 09:00:33.280 [info] Cancelling previous shutdown timeout
+2024-11-02 09:00:33.280 [info] Last EH closed, waiting before shutting down
+2024-11-02 09:00:35.500 [info] [<unknown>][9255f648][ManagementConnection] New connection established.
+2024-11-02 09:00:35.501 [info] [<unknown>][b301a3b9][ExtensionHostConnection] New connection established.
+2024-11-02 09:00:35.503 [info] [<unknown>][b301a3b9][ExtensionHostConnection] <9488> Launched Extension Host Process.
+2024-11-02 09:00:38.637 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31247)
+    at L.resize (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:27446)
+    at S.A.<computed> (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21705)
+    at Object.call (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5380)
+    at c.s (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at c.q (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at g.value (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-02 09:00:38.677 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31247)
+    at L.resize (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:27446)
+    at S.A.<computed> (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21705)
+    at Object.call (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5380)
+    at c.s (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at c.q (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at g.value (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-02 09:00:38.677 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31247)
+    at L.resize (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:27446)
+    at S.A.<computed> (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21705)
+    at Object.call (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5380)
+    at c.s (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at c.q (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at g.value (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-02 09:00:38.677 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31247)
+    at L.resize (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:27446)
+    at S.A.<computed> (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21705)
+    at Object.call (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5380)
+    at c.s (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at c.q (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at g.value (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

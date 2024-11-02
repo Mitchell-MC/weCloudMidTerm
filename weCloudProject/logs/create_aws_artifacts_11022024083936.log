@@ -1,0 +1,6 @@
+Have you created the S3 buckets yet? [y/n] Have you created a Lambda role yet? [y/n] Have you created a Lambda layer yet? [y/n] Have you created a Lambda function yet? [y/n] Have you created a Lambda schedule trigger yet? [y/n] Have you created an EMR role yet? [y/n] Have you registered your email that you plan to send with SES yet? [y/n] Have you created an Athena database yet? [y/n] Creating Athena database
+
+An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: line 1:8: mismatched input 'database'. Expecting: 'MATERIALIZED', 'MULTI', 'OR', 'PROTECTED', 'ROLE', 'SCHEMA', 'TABLE', 'VIEW'
+Failed to create Athena database
+[ERROR:] RETURN CODE:  254
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.

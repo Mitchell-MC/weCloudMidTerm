@@ -1,0 +1,13 @@
+2024-11-02 09:00:38.611 [info] Using repo backend url https://repo42.cursor.sh
+2024-11-02 09:00:39.088 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? \home\ubuntu\weCloudProject\config_file.toml
+2024-11-02 09:00:39.195 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? \home\ubuntu\weCloudProject\config_file.toml
+2024-11-02 09:00:39.195 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? \home\ubuntu\weCloudProject\config_file.toml
+2024-11-02 09:00:39.421 [info] Using repo backend url https://repo42.cursor.sh
+2024-11-02 09:00:40.987 [info] Git graph is enabled
+2024-11-02 09:01:28.277 [info] Creating indexer for repo /home/ubuntu
+2024-11-02 09:01:28.658 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:01:29.658 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:01:31.660 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:01:35.660 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:01:43.660 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:01:59.662 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
