@@ -24,3 +24,58 @@
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
 2024-11-02 09:02:10.132 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-02 09:02:30.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-02 09:02:31.310 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:939038)
+	at async T.retryRun (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036784)
+	at async T.run (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036388)
+	at async T.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024470)
+	at async T.getBranchBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024756)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
+2024-11-02 09:03:17.853 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-02 09:03:18.881 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-02 09:03:18.892 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:939038)
+	at async T.retryRun (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036784)
+	at async T.run (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036388)
+	at async T.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024470)
+	at async T.getBranchBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024756)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
+2024-11-02 09:03:19.895 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:939038)
+	at async T.retryRun (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036784)
+	at async T.run (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036388)
+	at async T.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024470)
+	at async T.getBranchBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024756)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
+2024-11-02 09:03:37.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-02 09:03:38.945 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:939038)
+	at async T.retryRun (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036784)
+	at async T.run (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036388)
+	at async T.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024470)
+	at async T.getBranchBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024756)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
+2024-11-02 09:04:29.046 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-02 09:04:30.061 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:939038)
+	at async T.retryRun (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036784)
+	at async T.run (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036388)
+	at async T.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024470)
+	at async T.getBranchBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024756)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
+2024-11-02 09:05:08.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-02 09:05:09.763 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:939038)
+	at async T.retryRun (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036784)
+	at async T.run (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1036388)
+	at async T.getBranch (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024470)
+	at async T.getBranchBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:1024756)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:950458)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/extensions/git/dist/main.js:2:943785)
+2024-11-02 09:06:10.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001

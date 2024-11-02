@@ -84,3 +84,8 @@
     at process.emit (node:events:519:28)
     at emit (node:internal/child_process:951:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-02 09:05:33.283 [info] New EH opened, aborting shutdown
+2024-11-02 09:05:33.284 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.cursor-server/cli/servers/Stable-949de58bd3d85d530972cac2dffc4feb9eee1e40/server/out/vs/server/node/server.main.js:207:6428)
+    at process.emit (node:events:531:35)
+2024-11-02 09:11:11.288 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

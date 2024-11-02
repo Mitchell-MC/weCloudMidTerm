@@ -11,3 +11,11 @@
 2024-11-02 09:01:35.660 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
 2024-11-02 09:01:43.660 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
 2024-11-02 09:01:59.662 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:02:31.665 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:03:35.666 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:05:43.666 [error] Failed to initialize inner. Retrying... {"error":{},"rootUri":"/home/ubuntu"}
+2024-11-02 09:10:14.384 [info] GitGraphIndexer initialized {"workspaceId":"gg_5b509158-ddbc-42c0-a0ff-8993d3512561","rootUri":"/home/ubuntu"}
+2024-11-02 09:10:21.537 [info] Starting graph population {"rootUri":"/home/ubuntu"}
+2024-11-02 09:10:21.781 [info] Marked HEAD as pending {"headSha":"637b9541bcc5f866e078d1b2dabb6e6412407e3c","rootUri":"/home/ubuntu"}
+2024-11-02 09:10:27.214 [info] Waiting before uploading commits, on request from server {"waitTimeMs":881.292236328125,"rootUri":"/home/ubuntu"}
+2024-11-02 09:10:36.427 [info] starting to upload commits to git graph {"count":1,"rootUri":"/home/ubuntu"}
