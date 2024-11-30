@@ -1,0 +1,363 @@
+Have you created the S3 buckets yet? [y/n] Have you created a Lambda role yet? [y/n] Creating the Lambda role and attaching appropriate permissions
+
+An error occurred (EntityAlreadyExists) when calling the CreateRole operation: Role with name midtermlambda already exists.
+Lambda role created
+Have you created a Lambda layer yet? [y/n] Creating the Lambda layer
+Collecting toml==0.10.2 (from -r requirements.txt (line 1))
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting python-dotenv==0.20.0 (from -r requirements.txt (line 2))
+  Downloading python_dotenv-0.20.0-py3-none-any.whl.metadata (19 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading python_dotenv-0.20.0-py3-none-any.whl (17 kB)
+Installing collected packages: toml, python-dotenv
+Successfully installed python-dotenv-0.20.0 toml-0.10.2
+  adding: python/ (stored 0%)
+  adding: python/lib/ (stored 0%)
+  adding: python/lib/python3.7/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/bin/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/bin/dotenv (deflated 24%)
+  adding: python/lib/python3.7/site-packages/toml/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/toml/decoder.py (deflated 79%)
+  adding: python/lib/python3.7/site-packages/toml/encoder.py (deflated 73%)
+  adding: python/lib/python3.7/site-packages/toml/ordered.py (deflated 61%)
+  adding: python/lib/python3.7/site-packages/toml/tz.py (deflated 61%)
+  adding: python/lib/python3.7/site-packages/toml/__pycache__/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/toml/__pycache__/decoder.cpython-312.pyc (deflated 51%)
+  adding: python/lib/python3.7/site-packages/toml/__pycache__/tz.cpython-312.pyc (deflated 44%)
+  adding: python/lib/python3.7/site-packages/toml/__pycache__/ordered.cpython-312.pyc (deflated 48%)
+  adding: python/lib/python3.7/site-packages/toml/__pycache__/__init__.cpython-312.pyc (deflated 43%)
+  adding: python/lib/python3.7/site-packages/toml/__pycache__/encoder.cpython-312.pyc (deflated 52%)
+  adding: python/lib/python3.7/site-packages/toml/__init__.py (deflated 63%)
+  adding: python/lib/python3.7/site-packages/dotenv/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/dotenv/cli.py (deflated 67%)
+  adding: python/lib/python3.7/site-packages/dotenv/parser.py (deflated 72%)
+  adding: python/lib/python3.7/site-packages/dotenv/version.py (stored 0%)
+  adding: python/lib/python3.7/site-packages/dotenv/ipython.py (deflated 60%)
+  adding: python/lib/python3.7/site-packages/dotenv/py.typed (stored 0%)
+  adding: python/lib/python3.7/site-packages/dotenv/variables.py (deflated 69%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/ipython.cpython-312.pyc (deflated 38%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/variables.cpython-312.pyc (deflated 52%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/__init__.cpython-312.pyc (deflated 39%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/version.cpython-312.pyc (deflated 18%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/main.cpython-312.pyc (deflated 52%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/parser.cpython-312.pyc (deflated 54%)
+  adding: python/lib/python3.7/site-packages/dotenv/__pycache__/cli.cpython-312.pyc (deflated 54%)
+  adding: python/lib/python3.7/site-packages/dotenv/main.py (deflated 73%)
+  adding: python/lib/python3.7/site-packages/dotenv/__init__.py (deflated 65%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/REQUESTED (stored 0%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/top_level.txt (stored 0%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/LICENSE (deflated 81%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/INSTALLER (stored 0%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/METADATA (deflated 67%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/RECORD (deflated 49%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/WHEEL (stored 0%)
+  adding: python/lib/python3.7/site-packages/python_dotenv-0.20.0.dist-info/entry_points.txt (deflated 9%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/ (stored 0%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/REQUESTED (stored 0%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/top_level.txt (stored 0%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/LICENSE (deflated 43%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/INSTALLER (stored 0%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/METADATA (deflated 68%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/RECORD (deflated 46%)
+  adding: python/lib/python3.7/site-packages/toml-0.10.2.dist-info/WHEEL (deflated 14%)
+Completed 92.1 KiB/92.1 KiB (850.5 KiB/s) with 1 file(s) remainingupload: ./lambda_libraries.zip to s3://weclouddata-kfcphuket-input/scripts/lambda_libraries.zip
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --layer-name: expected one argument
+
+Lambda layer created
+Have you created a Lambda function yet? [y/n] Creating the Lambda function
+	zip warning: name not matched: ../.env
+  adding: lambda_function.py (deflated 62%)
+  adding: ../config_file.toml (deflated 48%)
+Completed 2.1 KiB/2.1 KiB (36.1 KiB/s) with 1 file(s) remainingupload: ./lambda_code.zip to s3://weclouddata-kfcphuket-input/scripts/lambda_code.zip
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --function-name: expected one argument
+
+Lambda function created
+Have you created a Lambda schedule trigger yet? [y/n] Attaching a schedule trigger to Lambda so that it runs at midnight
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --name: expected one argument
+
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --function-name: expected one argument
+
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --rule: expected one argument
+
+Lambda schedule trigger created
+Have you created an EMR role yet? [y/n] Creating EMR role
+[
+    {
+        "Role": {
+            "Path": "/",
+            "RoleName": "EMR_EC2_DefaultRole",
+            "RoleId": "AROA236I4G734OGPS4WYB",
+            "Arn": "arn:aws:iam::747208718327:role/EMR_EC2_DefaultRole",
+            "CreateDate": "2024-11-02T08:24:02+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2008-10-17",
+                "Statement": [
+                    {
+                        "Sid": "",
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ec2.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            }
+        },
+        "RolePolicy": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Resource": "*",
+                    "Action": [
+                        "cloudwatch:*",
+                        "dynamodb:*",
+                        "ec2:Describe*",
+                        "elasticmapreduce:Describe*",
+                        "elasticmapreduce:ListBootstrapActions",
+                        "elasticmapreduce:ListClusters",
+                        "elasticmapreduce:ListInstanceGroups",
+                        "elasticmapreduce:ListInstances",
+                        "elasticmapreduce:ListSteps",
+                        "kinesis:CreateStream",
+                        "kinesis:DeleteStream",
+                        "kinesis:DescribeStream",
+                        "kinesis:GetRecords",
+                        "kinesis:GetShardIterator",
+                        "kinesis:MergeShards",
+                        "kinesis:PutRecord",
+                        "kinesis:SplitShard",
+                        "rds:Describe*",
+                        "s3:*",
+                        "sdb:*",
+                        "sns:*",
+                        "sqs:*",
+                        "glue:CreateDatabase",
+                        "glue:UpdateDatabase",
+                        "glue:DeleteDatabase",
+                        "glue:GetDatabase",
+                        "glue:GetDatabases",
+                        "glue:CreateTable",
+                        "glue:UpdateTable",
+                        "glue:DeleteTable",
+                        "glue:GetTable",
+                        "glue:GetTables",
+                        "glue:GetTableVersions",
+                        "glue:CreatePartition",
+                        "glue:BatchCreatePartition",
+                        "glue:UpdatePartition",
+                        "glue:DeletePartition",
+                        "glue:BatchDeletePartition",
+                        "glue:GetPartition",
+                        "glue:GetPartitions",
+                        "glue:BatchGetPartition",
+                        "glue:CreateUserDefinedFunction",
+                        "glue:UpdateUserDefinedFunction",
+                        "glue:DeleteUserDefinedFunction",
+                        "glue:GetUserDefinedFunction",
+                        "glue:GetUserDefinedFunctions"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Role": {
+            "Path": "/",
+            "RoleName": "EMR_DefaultRole",
+            "RoleId": "AROA236I4G73T5LLH574T",
+            "Arn": "arn:aws:iam::747208718327:role/EMR_DefaultRole",
+            "CreateDate": "2024-11-02T08:24:10+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2008-10-17",
+                "Statement": [
+                    {
+                        "Sid": "",
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "elasticmapreduce.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            }
+        },
+        "RolePolicy": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Resource": "*",
+                    "Action": [
+                        "ec2:AuthorizeSecurityGroupEgress",
+                        "ec2:AuthorizeSecurityGroupIngress",
+                        "ec2:CancelSpotInstanceRequests",
+                        "ec2:CreateFleet",
+                        "ec2:CreateLaunchTemplate",
+                        "ec2:CreateNetworkInterface",
+                        "ec2:CreateSecurityGroup",
+                        "ec2:CreateTags",
+                        "ec2:DeleteLaunchTemplate",
+                        "ec2:DeleteNetworkInterface",
+                        "ec2:DeleteSecurityGroup",
+                        "ec2:DeleteTags",
+                        "ec2:DescribeAvailabilityZones",
+                        "ec2:DescribeAccountAttributes",
+                        "ec2:DescribeDhcpOptions",
+                        "ec2:DescribeImages",
+                        "ec2:DescribeInstanceStatus",
+                        "ec2:DescribeInstances",
+                        "ec2:DescribeKeyPairs",
+                        "ec2:DescribeLaunchTemplates",
+                        "ec2:DescribeNetworkAcls",
+                        "ec2:DescribeNetworkInterfaces",
+                        "ec2:DescribePrefixLists",
+                        "ec2:DescribeRouteTables",
+                        "ec2:DescribeSecurityGroups",
+                        "ec2:DescribeSpotInstanceRequests",
+                        "ec2:DescribeSpotPriceHistory",
+                        "ec2:DescribeSubnets",
+                        "ec2:DescribeTags",
+                        "ec2:DescribeVpcAttribute",
+                        "ec2:DescribeVpcEndpoints",
+                        "ec2:DescribeVpcEndpointServices",
+                        "ec2:DescribeVpcs",
+                        "ec2:DetachNetworkInterface",
+                        "ec2:ModifyImageAttribute",
+                        "ec2:ModifyInstanceAttribute",
+                        "ec2:RequestSpotInstances",
+                        "ec2:RevokeSecurityGroupEgress",
+                        "ec2:RunInstances",
+                        "ec2:TerminateInstances",
+                        "ec2:DeleteVolume",
+                        "ec2:DescribeVolumeStatus",
+                        "ec2:DescribeVolumes",
+                        "ec2:DetachVolume",
+                        "iam:GetRole",
+                        "iam:GetRolePolicy",
+                        "iam:ListInstanceProfiles",
+                        "iam:ListRolePolicies",
+                        "iam:PassRole",
+                        "s3:CreateBucket",
+                        "s3:Get*",
+                        "s3:List*",
+                        "sdb:BatchPutAttributes",
+                        "sdb:Select",
+                        "sqs:CreateQueue",
+                        "sqs:Delete*",
+                        "sqs:GetQueue*",
+                        "sqs:PurgeQueue",
+                        "sqs:ReceiveMessage",
+                        "cloudwatch:PutMetricAlarm",
+                        "cloudwatch:DescribeAlarms",
+                        "cloudwatch:DeleteAlarms",
+                        "application-autoscaling:RegisterScalableTarget",
+                        "application-autoscaling:DeregisterScalableTarget",
+                        "application-autoscaling:PutScalingPolicy",
+                        "application-autoscaling:DeleteScalingPolicy",
+                        "application-autoscaling:Describe*"
+                    ]
+                },
+                {
+                    "Effect": "Allow",
+                    "Action": "iam:CreateServiceLinkedRole",
+                    "Resource": "arn:aws:iam::*:role/aws-service-role/spot.amazonaws.com/AWSServiceRoleForEC2Spot*",
+                    "Condition": {
+                        "StringLike": {
+                            "iam:AWSServiceName": "spot.amazonaws.com"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Role": {
+            "Path": "/",
+            "RoleName": "EMR_AutoScaling_DefaultRole",
+            "RoleId": "AROA236I4G73WC64ZBVCM",
+            "Arn": "arn:aws:iam::747208718327:role/EMR_AutoScaling_DefaultRole",
+            "CreateDate": "2024-11-02T08:24:14+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2008-10-17",
+                "Statement": [
+                    {
+                        "Sid": "",
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": [
+                                "elasticmapreduce.amazonaws.com",
+                                "application-autoscaling.amazonaws.com"
+                            ]
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            }
+        },
+        "RolePolicy": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Action": [
+                        "cloudwatch:DescribeAlarms",
+                        "elasticmapreduce:ListInstanceGroups",
+                        "elasticmapreduce:ModifyInstanceGroups"
+                    ],
+                    "Effect": "Allow",
+                    "Resource": "*"
+                }
+            ]
+        }
+    }
+]
+EMR role created
+Have you registered your email that you plan to send with SES yet? [y/n] Creating email verification with SMS
+
+An error occurred (AccessDeniedException) when calling the CreateEmailIdentity operation: User: arn:aws:iam::747208718327:user/mitchellmain is not authorized to perform: ses:CreateEmailIdentity on resource: arn:aws:ses:ap-southeast-1:747208718327:identity/mccallum.mitchell@gmail.com because no identity-based policy allows the ses:CreateEmailIdentity action
+Failed to create EMR verification with SMS
+[ERROR:] RETURN CODE:  254
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.
