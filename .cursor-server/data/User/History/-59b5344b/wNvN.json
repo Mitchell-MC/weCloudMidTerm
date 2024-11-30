@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "remote.SSH.remotePlatform": {
+        "AWS-EC2": "linux",
+        "ec2-47-128-233-110.ap-southeast-1.compute.amazonaws.com": "linux",
+        "ec2-18-141-203-4.ap-southeast-1.compute.amazonaws.com": "linux",
+        "ec2-18-139-163-243.ap-southeast-1.compute.amazonaws.com": "linux",
+        "ec2-3-0-146-11.ap-southeast-1.compute.amazonaws.com": "linux",
+        "ec2-13-250-31-149.ap-southeast-1.compute.amazonaws.com": "linux"
+    },
+    "git.autofetch": true
+}

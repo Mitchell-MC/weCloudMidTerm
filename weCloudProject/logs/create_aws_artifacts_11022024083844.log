@@ -1,0 +1,6 @@
+Have you created the S3 buckets yet? [y/n] Have you created a Lambda role yet? [y/n] Have you created a Lambda layer yet? [y/n] Have you created a Lambda function yet? [y/n] Have you created a Lambda schedule trigger yet? [y/n] Have you created an EMR role yet? [y/n] Have you registered your email that you plan to send with SES yet? [y/n] Have you created an Athena database yet? [y/n] Creating Athena database
+
+An error occurred (AccessDeniedException) when calling the StartQueryExecution operation: You are not authorized to perform: athena:StartQueryExecution on the resource. After your AWS administrator or you have updated your permissions, please try again.
+Failed to create Athena database
+[ERROR:] RETURN CODE:  254
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.

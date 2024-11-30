@@ -1,0 +1,6 @@
+2024-11-02 07:39:35.940 [info] Using repo backend url https://repo42.cursor.sh
+2024-11-02 07:39:36.845 [info] Using repo backend url https://repo42.cursor.sh
+2024-11-02 07:39:38.346 [info] Git graph is enabled
+2024-11-02 07:40:43.655 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? \home\ubuntu\weCloudProject\install_docker.sh
+2024-11-02 07:40:53.157 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? \home\ubuntu\weCloudProject\install_docker_compose.sh
+2024-11-02 07:40:59.142 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? \home\ubuntu\weCloudProject\install_packages.sh

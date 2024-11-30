@@ -1,0 +1,39 @@
+Have you created the S3 buckets yet? [y/n] Have you created a Lambda role yet? [y/n] Have you created a Lambda layer yet? [y/n] Have you created a Lambda function yet? [y/n] Have you created a Lambda schedule trigger yet? [y/n] Have you created an EMR role yet? [y/n] Have you registered your email that you plan to send with SES yet? [y/n] Have you created an Athena database yet? [y/n] Creating Athena database
+{
+    "QueryExecutionId": "b6f42da2-225c-4cfd-975d-40dde0bda691"
+}
+Athena database created
+Have you created a Glue role yet? [y/n] Creating Glue role
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Failed to create Glue role
+[ERROR:] RETURN CODE:  252
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.
