@@ -18,7 +18,7 @@ sender='mccallum.mitchell@gmail.com'
 recipient='mccallum.mitchell@gmail.com'
 
 [airflow]
-dag_name=''
+dag_name='weCloudPipe'
 
 [superset]
-container_name=''
+container_name='weCloudPipe'
