@@ -13,3 +13,4 @@ ubuntu_install.sh
 .cursor-server/
 .shh/
 .bashrc
+.profile
