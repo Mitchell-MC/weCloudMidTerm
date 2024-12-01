@@ -15,3 +15,4 @@ ubuntu_install.sh
 .bashrc
 .profile
 awscliv2.zip
+.sudo_as_admin_successful
