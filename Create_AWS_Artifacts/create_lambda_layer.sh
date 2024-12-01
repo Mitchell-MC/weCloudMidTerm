@@ -8,7 +8,7 @@ dir="lambda_layer"
 if [ ! -d $dir ]; then
     mkdir $dir
 fi
-mkdir -p ${dir}/python/lib/python3.7/site-packages
+mkdir -p ${dir}/python/lib/python3.11/site-packages
 
 # Installing the libraries and packaging into zip file
 pip3 install -r requirements.txt --target ${dir}/python/lib/python3.7/site-packages
@@ -23,7 +23,7 @@ aws lambda publish-layer-version \
     --layer-name ${lambda_layer_name} \
     --region ${region} \
     --content S3Bucket=${input_s3_bucket},S3Key="scripts/lambda_libraries.zip" \
-    --compatible-runtimes python3.7 \
+    --compatible-runtimes python3.11 \
     --compatible-architectures x86_64
 
 # Removing the files and folders to keep the folder clean

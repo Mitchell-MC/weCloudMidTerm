@@ -1,7 +1,8 @@
 import airflow
 from airflow import DAG
 from datetime import timedelta
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.python import PythonOperator  
+from airflow.operators.empty import EmptyOperator
 from airflow.providers.amazon.aws.operators.emr import EmrAddStepsOperator, EmrCreateJobFlowOperator, EmrTerminateJobFlowOperator
 from airflow.providers.amazon.aws.sensors.emr import EmrStepSensor
 from airflow.providers.amazon.aws.operators.glue_crawler import GlueCrawlerOperator

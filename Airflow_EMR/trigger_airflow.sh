@@ -4,6 +4,7 @@ region=$(cat ../config_file.toml | grep 'region' | awk -F"=" '{print $2}' | tr -
 
 # Below script invokes the lambda function so that we don't have to use the AWS management console to trigger the lambda function
 cd ..
+PAYLOAD=$(echo '{"key1": "value1","key2": "value2","key3": "value3"}' | base64)
 aws lambda invoke --function-name ${function_name} \
  --region ${region} \
- --payload '{"key1": "value1","key2": "value2","key3": "value3"}' logs/lambda_output.txt
+ --payload "${PAYLOAD}" logs/lambda_output.txt
