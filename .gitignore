@@ -1,1 +1,8 @@
 Airflow_EMR/pgdata/
+# Exclude all EC2 instance files and folders
+*.ec2
+*.log
+instance-*
+ec2-*
+temp/
+tmp/
