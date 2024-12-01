@@ -9,3 +9,7 @@ tmp/
 ec2_setup.sh
 ubuntu_ec2_config.json
 ubuntu_install.sh
+.cache/
+.cursor-server/
+.shh/
+.bashrc
