@@ -19,3 +19,14 @@ aws iam get-role --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42
 [200~aws iam list-attached-role-policies --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42~
 aws iam list-attached-role-policies --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42aws iam list-attached-role-policies --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42aws iam list-attached-role-policies --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42aws iam list-attached-role-policies --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42
 ./create_lambda_layer.sh
+./create_lambda_function.sh
+# Add S3 read access
+aws iam attach-role-policy     --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42     --policy-arn arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+# You might also need S3 write access if your function writes to S3
+aws iam attach-role-policy     --role-name Amazon_EventBridge_Scheduler_LAMBDA_90544c3b42     --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
+./create_lambda_function.sh
+./create_lambda_role.sh
+./create_lambda_function.sh
+./create_lambda_function.sh
+./create_lambda_role.sh
+./create_lambda_layer.sh

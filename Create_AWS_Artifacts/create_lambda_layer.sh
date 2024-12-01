@@ -11,7 +11,7 @@ fi
 mkdir -p ${dir}/python/lib/python3.11/site-packages
 
 # Installing the libraries and packaging into zip file
-pip3 install -r requirements.txt --target ${dir}/python/lib/python3.7/site-packages
+pip3 install -r requirements.txt --target ${dir}/python/lib/python3.11/site-packages
 cd $dir
 zip -r9 lambda_libraries.zip .
 
