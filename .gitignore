@@ -16,3 +16,5 @@ ubuntu_install.sh
 .profile
 awscliv2.zip
 .sudo_as_admin_successful
+.bash_history
+.bash_logout
