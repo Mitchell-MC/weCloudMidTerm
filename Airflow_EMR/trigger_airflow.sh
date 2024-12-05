@@ -7,4 +7,4 @@ cd ..
 PAYLOAD=$(echo '{"key1": "value1","key2": "value2","key3": "value3"}' | base64)
 aws lambda invoke --function-name ${function_name} \
  --region ${region} \
- --payload "${PAYLOAD}" logs/lambda_output.txt
+ --payload '{"key1":"value1","key2":"value2","key3":"value3"}' logs/lambda_output.txt
